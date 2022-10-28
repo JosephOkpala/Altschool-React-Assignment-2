@@ -1,0 +1,58 @@
+.home {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.home div {
+  margin-left: 1rem;
+}
+
+.home h1 {
+  font-size: 4rem;
+  max-width: 400px;
+  margin-bottom: 1rem;
+}
+
+.home button {
+  border: 1px solid gray;
+  padding: 0.8rem 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  font-size: 1.1rem;
+  transition: all 0.4s ease;
+  background-color: white;
+}
+
+.home button:hover {
+  background-color: #61dafb;
+  border: 1px solid #61dafb;
+}
+
+.home img {
+  width: 50%;
+}
+
+@media (max-width: 800px) {
+  .home {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home img {
+    width: 90%;
+  }
+}
+
+@media (max-width: 500px) {
+  .home h1 {
+    font-size: 3.5rem;
+  }
+
+  .home img {
+    width: 90%;
+  }
+}

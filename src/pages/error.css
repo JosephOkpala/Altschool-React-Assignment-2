@@ -1,0 +1,33 @@
+.error-div {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.error-div h1 {
+  font-size: 3rem;
+  max-width: 800px;
+  margin: 0 auto 1rem auto;
+}
+
+.error-div button {
+  padding: 0.8rem 1rem;
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+
+.error-div button:hover {
+  background-color: white;
+  color: #61dafb;
+  border: 1px solid #61dafb;
+}

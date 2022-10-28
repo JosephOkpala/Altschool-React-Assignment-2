@@ -1,0 +1,15 @@
+.allUsers {
+  text-align: center;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.list li {
+  display: inline;
+  margin-bottom: 1rem;
+  align-items: left;
+}
+
+.mg-b {
+  margin-bottom: 3rem;
+}
