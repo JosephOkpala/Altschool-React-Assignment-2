@@ -31,9 +31,13 @@ const AllMaleUsers = () => {
     <div className="allUsers">
       {maleUsers &&
         maleUsers.map((user) => (
-          <ol key={user.login.uuid} className="list">
-            <li>{`${user.name.title} ${user.name.first} ${user.name.last}`}</li>
-          </ol>
+          <div key={user.login.uuid} className="container-all">
+            <div>
+              <img src={user.picture.large} alt="" className="img" />
+              <p className="bold">{`${user.name.title} ${user.name.first} ${user.name.last}`}</p>
+              <p>{user.cell}</p>
+            </div>
+          </div>
         ))}
     </div>
   );

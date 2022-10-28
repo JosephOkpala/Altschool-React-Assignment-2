@@ -4,6 +4,10 @@
   margin: 0 auto;
 }
 
+.allUsers a {
+  border: 1px solid cyan;
+}
+
 .list li {
   display: inline;
   margin-bottom: 1rem;
@@ -12,4 +16,21 @@
 
 .mg-b {
   margin-bottom: 3rem;
+}
+
+.container-all img {
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.container-all div {
+  background-color: rgb(221, 221, 221);
+  border-radius: 5px;
+  max-width: 350px;
+  margin: 0 auto 1rem auto;
+  padding: 2rem 0;
+}
+
+.bold {
+  font-weight: bold;
 }

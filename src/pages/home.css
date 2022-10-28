@@ -15,6 +15,7 @@
   font-size: 4rem;
   max-width: 400px;
   margin-bottom: 1rem;
+  color: #61dafb;
 }
 
 .home button {
@@ -30,6 +31,7 @@
 .home button:hover {
   background-color: #61dafb;
   border: 1px solid #61dafb;
+  color: white;
 }
 
 .home img {
