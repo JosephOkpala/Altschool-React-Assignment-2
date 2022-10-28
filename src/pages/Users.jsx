@@ -59,31 +59,35 @@ export const ListedUsers = () => {
           </main>
         ))}
       </div>
-      {
-        <button
-          onClick={() => setPage((prev) => prev - 1)}
-          className="prev"
-          disabled={page <= 1}
-          aria-disabled={page <= 1}
-        >
-          Previous
-        </button>
-      }
-      {Array.from({ length: pages }, (value, index) => index + 1).map(
-        (each) => (
-          <button onClick={() => setPage(each)}>{each}</button>
-        )
-      )}
-      {
-        <button
-          onClick={() => setPage((prev) => prev + 1)}
-          className="next"
-          disabled={page >= pages}
-          aria-disabled={page >= pages}
-        >
-          Next
-        </button>
-      }
+      <div className="paginate-btn">
+        {
+          <button
+            onClick={() => setPage((prev) => prev - 1)}
+            className="prev"
+            disabled={page <= 1}
+            aria-disabled={page <= 1}
+          >
+            Previous
+          </button>
+        }
+        {Array.from({ length: pages }, (value, index) => index + 1).map(
+          (each) => (
+            <button className="paginate-btn-num" onClick={() => setPage(each)}>
+              {each}
+            </button>
+          )
+        )}
+        {
+          <button
+            onClick={() => setPage((prev) => prev + 1)}
+            className="next"
+            disabled={page >= pages}
+            aria-disabled={page >= pages}
+          >
+            Next
+          </button>
+        }
+      </div>
     </div>
   );
 };
