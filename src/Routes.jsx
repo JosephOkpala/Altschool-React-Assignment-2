@@ -16,7 +16,7 @@ const Routing = () => {
         <Route path="female" element={<AllFemaleUsers />} />
         <Route path="male" element={<AllMaleUsers />} />
       </Route>
-      <Route path="/test" element={<Test testName="bomb" />} />
+      <Route path="/test" element={<Test testName="crash" />} />
       <Route path="*" element={<Error />} />
     </Routes>
   );

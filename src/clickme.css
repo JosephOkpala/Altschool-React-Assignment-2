@@ -1,0 +1,12 @@
+input {
+  text-align: center;
+  padding: 0.5rem;
+}
+
+input::placeholder {
+  font-size: 1.2rem;
+}
+
+label {
+  margin-right: 0.7rem;
+}
