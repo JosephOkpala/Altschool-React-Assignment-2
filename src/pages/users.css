@@ -73,7 +73,7 @@ main {
 .prev {
   cursor: pointer;
   border: 0.8px solid gray;
-  padding: 0.3rem 1rem;
+  padding: 0.7rem 1rem;
   transition: 0.3s ease;
 }
 
@@ -94,7 +94,7 @@ main {
 .next {
   cursor: pointer;
   border: 0.8px solid gray;
-  padding: 0.3rem 1rem;
+  padding: 0.7rem 1rem;
   transition: 0.3s ease;
 }
 
@@ -115,7 +115,7 @@ main {
 .paginate-btn-num {
   cursor: pointer;
   border: 0.8px solid gray;
-  padding: 0.3rem 1rem;
+  padding: 0.7rem 1rem;
   transition: 0.3s ease;
 }
 
